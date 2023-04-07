@@ -1,0 +1,17 @@
+.about-container {
+    display: flex;
+    background-color: #2B7A78;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.about-me-text {
+    padding-top: 100px;
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    line-height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
