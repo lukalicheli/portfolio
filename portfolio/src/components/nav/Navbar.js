@@ -8,7 +8,7 @@ function Navbar() {
       <div className="nav-button-container">
         <button className="nav-button">About</button>
         <button className="nav-button">Projects</button>
-        <button className="nav-button">Contact</button>
+        <button className="nav-button highlited">Contact</button>
       </div>
     </div>
   );
