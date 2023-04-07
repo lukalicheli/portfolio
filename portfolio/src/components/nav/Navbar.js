@@ -1,14 +1,15 @@
 import React from "react";
-import logo from "../nav/logo.png";
 import "./Navbar.css";
 
 function Navbar() {
   return (
     <div className="navbar-container">
-      <img className="logo" src={logo} alt="logo"></img>
-      <button>About</button>
-      <button>Projects</button>
-      <button>Contact</button>
+      <h1 className="logo">ლ</h1>
+      <div className="nav-button-container">
+        <button className="nav-button">About</button>
+        <button className="nav-button">Projects</button>
+        <button className="nav-button">Contact</button>
+      </div>
     </div>
   );
 }
