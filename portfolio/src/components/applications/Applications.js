@@ -32,13 +32,24 @@ function Applications() {
 
   return (
     <div className="applications-container">
-      {appCard.map((obj) => (
-        <div className="applications-card" key={obj.id}>
-          <div className="applications-icon">{obj.icon}</div>
-          <h3 className="applications-title">{obj.title}</h3>
-          <p className="applications-description">{obj.description}</p>
-        </div>
-      ))}
+      {" "}
+      <div className="applications-header">
+        <h3 className="applications-header title">Applications</h3>
+        <p className="applications-header description">
+          Whether it's creating an exact replica from wireframes or another
+          application to making simple daily apps, I have various projects
+          displaying my front end capabilities{" "}
+        </p>
+      </div>
+      <div className="applications-card-wrapper">
+        {appCard.map((obj) => (
+          <div className="applications-card" key={obj.id}>
+            <div className="applications-icon">{obj.icon}</div>
+            <h3 className="applications-title">{obj.title}</h3>
+            <p className="applications-description">{obj.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

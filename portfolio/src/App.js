@@ -6,16 +6,14 @@ import Applications from "./components/applications/Applications";
 import Games from "./components/games/Games";
 
 //Media queries to fix the margins on the nav bar
-// Make a card that shows the projects. 
-// Make 2 of the cards a sliding game and the tic tac toe game. 
+// Make a card that shows the projects.
+// Make 2 of the cards a sliding game and the tic tac toe game.
 // The third one have it as durak
-// The bottom row will have fake instagram, todoapp, and third one (pick something)
+
 // Write a message positioned underneath the cards that also has a link to contact page
 // Make a footer with blue background
 // In footer include all the links to ur linkedin, github, email
 // Make a contact page
-
-
 
 function App() {
   return (

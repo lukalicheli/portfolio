@@ -3,14 +3,32 @@
     padding-top: 20px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+.applications-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.applications-header.description {
+    text-align: center;
+    width: 50%;
+}
+
+.applications-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 .applications-card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 250px;
 }
+
 
 .applications-icon {
     text-align: center;
