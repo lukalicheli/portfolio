@@ -1,17 +1,25 @@
 .about-container {
     display: flex;
     background-color: #2B7A78;
-    height: 600px;
+    height: 475px;
     width: 100%;
-    justify-content: center;
-    
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
 }
 
-.about-me-text {
-    padding-top: 100px;
+.about-me-text.description {
+    margin: 0;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     width: 70%;
-    line-height: 40px;
+    line-height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-me-text.title {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
