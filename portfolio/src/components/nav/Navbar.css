@@ -15,12 +15,12 @@
 .nav-button {
     border: 0;
     background-color: white;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 25px;
-    margin-left: 15px;
-    padding: 10px 20px 10px 20px; 
+    margin-left: 5px;
+    padding: 10px 15px 10px 15px; 
     border-radius: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
 }
 
 .nav-button:hover {

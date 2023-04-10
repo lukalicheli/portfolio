@@ -17,12 +17,24 @@ import Games from "./components/games/Games";
 
 function App() {
   return (
-    <div className="app-container">
-      <Navbar></Navbar>
-      <Header></Header>
-      <About></About>
-      <Applications></Applications>
-      <Games></Games>
+    <div className="app">
+      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+      ></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+        rel="stylesheet"
+      ></link>
+      <div className="app-container">
+        <Navbar></Navbar>
+        <Header></Header>
+        <About></About>
+        <Applications></Applications>
+        <Games></Games>
+      </div>
     </div>
   );
 }

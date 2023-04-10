@@ -5,20 +5,21 @@
     width: 100%;
     align-items: center;
     flex-direction: column;
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 .about-me-text.description {
     margin: 0;
+    text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
+    font-weight:400;
     width: 70%;
     line-height: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .about-me-text.title {
-    font-size: 30px;
+    font-size: 26px;
     color: white;
     display: flex;
     justify-content: center;
