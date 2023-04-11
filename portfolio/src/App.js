@@ -4,6 +4,7 @@ import Header from "./components/about/Header";
 import About from "./components/about/About";
 import Applications from "./components/applications/Applications";
 import Games from "./components/games/Games";
+import Footer from "./components/footer/Footer";
 
 //Media queries to fix the margins on the nav bar
 // Make a card that shows the projects.
@@ -32,6 +33,7 @@ function App() {
         <About></About>
         <Applications></Applications>
         <Games></Games>
+        <Footer></Footer>
       </div>
     </div>
   );
