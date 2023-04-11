@@ -10,8 +10,6 @@ import Footer from "./components/footer/Footer";
 // Make a card that shows the projects.
 // Make 2 of the cards a sliding game and the tic tac toe game.
 // The third one have it as durak
-// Make a footer with blue background
-// In footer include all the links to ur linkedin, github, email
 // Make a contact page
 
 function App() {
