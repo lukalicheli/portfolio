@@ -29,8 +29,8 @@ function App() {
         <Navbar></Navbar>
         <Header></Header>
         <About></About>
-        <Applications></Applications>
         <Games></Games>
+        <Applications></Applications>
         <Footer></Footer>
       </div>
     </div>
