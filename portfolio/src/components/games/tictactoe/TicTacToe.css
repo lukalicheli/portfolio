@@ -14,6 +14,7 @@
 .tictactoe-title {
   padding-top: 20px;
   margin: 0;
+  font-weight: 800;
 }
 
 .tictactoe-turn {
