@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./SlidingTiles.css";
+import { RiH3 } from "react-icons/ri";
 
 function SlidingTiles() {
   const [board, setBoard] = useState(Array(9).fill(""));
@@ -90,11 +91,11 @@ function SlidingTiles() {
 
   return (
     <div className="sliding-game-container">
-      <h1 className="sliding-game-title">Sliding Game</h1>
+      <h2 className="sliding-game-title">Sliding Game</h2>
 
       {completed ? (
         <div>
-          <h2 className="completion-status">Completed!</h2>
+          <h3 className="completion-status">Completed!</h3>
           <button
             className="start-button"
             onClick={() => {
@@ -106,7 +107,7 @@ function SlidingTiles() {
           </button>
         </div>
       ) : (
-        <h2 className="completion-status">Not yet completed...</h2>
+        <h3 className="completion-status">Not yet completed...</h3>
       )}
       <div className="sliding-board">
         {board.map((value, index) => {
