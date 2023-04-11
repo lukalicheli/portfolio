@@ -13,10 +13,21 @@ function Footer() {
       </p>
 
       <div className="footer-icons">
-        <FaLinkedinIn className="contact-icon" size={25}></FaLinkedinIn>
-        <AiFillGithub className="contact-icon" size={25}></AiFillGithub>
-        <AiOutlineMail className="contact-icon" size={25}></AiOutlineMail>
-        <AiFillPhone className="contact-icon" size={25}></AiFillPhone>
+        <a href="https://www.linkedin.com/in/lukalicheli/">
+          <FaLinkedinIn className="contact-icon" size={25}></FaLinkedinIn>
+        </a>
+        <a href="https://github.com/lukalicheli">
+          {" "}
+          <AiFillGithub className="contact-icon" size={25}></AiFillGithub>
+        </a>
+        <a href="mailto: lukalicheli@gmail.com">
+          {" "}
+          <AiOutlineMail className="contact-icon" size={25}></AiOutlineMail>
+        </a>
+        <a href="tel:732-586-4369">
+          {" "}
+          <AiFillPhone className="contact-icon" size={25}></AiFillPhone>
+        </a>
       </div>
       <div className="made-with-react">
         {" "}
