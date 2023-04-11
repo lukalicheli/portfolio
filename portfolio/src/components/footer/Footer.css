@@ -4,8 +4,10 @@
     align-items: center;
     padding-top: 30px;
     width: 100%;
-    background-color: #2B7A78;
+    background-color: #2b7a77;
     color: white;
+    margin-top: 100px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -21,13 +23,28 @@
     text-align: center;
     font-size: 22px;
     width: 400px;
+    color: #9ccecc;
 
 }
 
 .made-with-react {
     display: flex;
+    color: #9ccecc;
 }
 
 .react-icon {
    padding: 15px 5px 0px 5px ;
+   color: #b4eeec;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+    margin: 15px 0px 15px 10px;
+}
+
+.contact-icon {
+    border: 1px solid #9ccecc;
+    border-radius: 50%;
+    padding: 10px;
 }
