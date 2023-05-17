@@ -5,7 +5,7 @@ import "./Backgammon.css";
 function Backgammon() {
   return (
     <div className="backgammon-container">
-      <img src={BG} alt="backgammon board"></img>
+      <img className="backgammon-image" src={BG} alt="backgammon board"></img>
     </div>
   );
 }

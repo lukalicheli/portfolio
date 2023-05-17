@@ -42,8 +42,8 @@ function Applications() {
         </p>
       </div>
       <div className="applications-card-wrapper">
-        {appCard.map((obj) => (
-          <div className="applications-card" key={obj.id}>
+        {appCard.map((obj, index) => (
+          <div className="applications-card" key={index}>
             <div className="applications-icon">{obj.icon}</div>
             <h3 className="applications-title">{obj.title}</h3>
             <p className="applications-description">{obj.description}</p>
