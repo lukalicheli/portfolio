@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <h1 className="about-me-text title">Full Stack Web Developer</h1>
       <p className="about-me-text description">
         I specialize in creating user-friendly interfaces that are visually

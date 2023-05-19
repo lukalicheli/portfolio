@@ -44,7 +44,7 @@ function Applications() {
   ];
 
   return (
-    <div className="applications-container">
+    <div id="projects" className="applications-container">
       {" "}
       <div className="applications-header">
         <h3 className="applications-header title">Applications</h3>

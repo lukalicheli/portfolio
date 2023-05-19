@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div id="contact" className="footer-container">
       <p className="footer-logo">ლ</p>
       <p className="slogan">
         Pushing boundaries with every bug, obstacle and challenge.
