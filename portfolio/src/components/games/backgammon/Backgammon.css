@@ -1,21 +1,45 @@
 .backgammon-container {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  width: 350px;
-    
-  height: 300px;
-  margin-top: -175px;
+  width: 250px;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 10%;
+  height: 325px;
+  margin-top: -200px;
 }
 
 .backgammon-image {
+
     display: flex;
     flex-wrap: wrap;
-  width: 100%;
-  height: 100%;
+    width: 150px;
+    height: 150px;
     border: 2px solid lightgrey;
-    margin-bottom: 10px;
-    background-color: white;
-    background-color: white;
+    margin-bottom: 5px;
   
+}
+
+.backgammon-title {
+  padding-top: 20px;
+  margin: 0;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+
+.backgammon-play {
+  margin-top: 10px;
+  border:0;
+  background-color: transparent;
+  font-size: 20px;
+  color:black;
+  font-weight: 900;
+}
+
+.backgammon-subtitle {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

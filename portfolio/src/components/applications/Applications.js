@@ -37,9 +37,9 @@ function Applications() {
     },
     {
       id: 1,
-      title: "Sample",
+      title: "Radium Code",
       icon: <RiQuestionnaireLine size={65}></RiQuestionnaireLine>,
-      description: "Sample description",
+      description: "In progress...",
     },
   ];
 
