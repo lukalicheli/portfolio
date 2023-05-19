@@ -6,3 +6,16 @@
     flex-direction: column;
     cursor:default;
 }
+
+/* @media (max-width: 850px) {
+    .games-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        cursor:default;
+ 
+    }
+
+  } */
+
+
