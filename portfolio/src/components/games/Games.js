@@ -8,7 +8,9 @@ function Games() {
   return (
     <div className="games-container">
       <TicTacToe></TicTacToe>
+
       <Backgammon></Backgammon>
+
       <SlidingTiles></SlidingTiles>
     </div>
   );

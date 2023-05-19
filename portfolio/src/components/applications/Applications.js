@@ -5,20 +5,33 @@ import {
   RiInstagramLine,
   RiQuestionnaireLine,
 } from "react-icons/ri";
-
+import VideoComponent from "./Video";
+import HoverImage from "./Video";
+import { Link } from "react-router-dom";
 function Applications() {
   const appCard = [
     {
       id: 1,
       title: "Todo App",
-      icon: <RiTodoLine size={65}></RiTodoLine>,
+      icon: (
+        <a href="https://lukalicheli.github.io/todo-app-react/">
+          <RiTodoLine style={{ color: "#2B7A78" }} size={65}></RiTodoLine>
+        </a>
+      ),
       description:
         "A simple todo app. A task manager where you can add, remove, and update todos.",
     },
     {
       id: 1,
       title: "Instagram Clone",
-      icon: <RiInstagramLine size={65}></RiInstagramLine>,
+      icon: (
+        <Link to="/ig-clone">
+          <RiInstagramLine
+            style={{ color: "#2B7A78" }}
+            size={65}
+          ></RiInstagramLine>
+        </Link>
+      ),
       description:
         "An Instagram clone. Some of the details of the app had to be altered to bypass security threat.",
     },

@@ -3,11 +3,22 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Video from "./components/applications/Video";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Switch>
+        <Route path="/portfolio">
+          <App />
+        </Route>
+        <Route path="/ig-clone">
+          <Video />
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>
 );
 

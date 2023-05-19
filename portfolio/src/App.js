@@ -5,6 +5,8 @@ import About from "./components/about/About";
 import Applications from "./components/applications/Applications";
 import Games from "./components/games/Games";
 import Footer from "./components/footer/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Video from "./components/applications/Video";
 
 //Media queries to fix the margins on the nav bar
 // Make a card that shows the projects.
