@@ -52,6 +52,7 @@
     border: 2px solid lightgrey;
     margin-bottom: 10px;
     background-color: white;
+    border: none;
   }
   
   .square.X {

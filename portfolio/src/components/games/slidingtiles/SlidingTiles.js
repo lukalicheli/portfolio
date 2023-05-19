@@ -96,15 +96,6 @@ function SlidingTiles() {
       {completed ? (
         <div>
           <h3 className="completion-status">Completed!</h3>
-          <button
-            className="start-button"
-            onClick={() => {
-              const newBoard = startGame();
-              setBoard(newBoard);
-            }}
-          >
-            Start Game
-          </button>
         </div>
       ) : (
         <h3 className="completion-status">Not yet completed...</h3>
@@ -114,13 +105,26 @@ function SlidingTiles() {
           return (
             <div
               key={index}
-              className="sliding-square"
+              className={`sliding-square ${value === "" ? "empty" : ""}`}
               onClick={() => tileClick(index, value)}
             >
               {value}
             </div>
           );
         })}
+        {completed ? (
+          <button
+            className="start-button"
+            onClick={() => {
+              const newBoard = startGame();
+              setBoard(newBoard);
+            }}
+          >
+            Reset Game
+          </button>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
