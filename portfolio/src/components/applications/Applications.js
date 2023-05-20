@@ -33,7 +33,7 @@ function Applications() {
         </Link>
       ),
       description:
-        "An Instagram clone. Some of the details of the app had to be altered to bypass security threat.",
+        "An Instagram clone. It is a link to a video of the page due to chrome's security feature that marked this project as a scamming/phishing threat.",
     },
     {
       id: 1,
