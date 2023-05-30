@@ -13,7 +13,10 @@ function Navbar() {
           <button className="nav-button">Projects</button>
         </a>
         <a href="#contact">
-          <button className="nav-button highlited">Contact</button>
+          <button className="nav-button ">Contact</button>
+        </a>
+        <a href="https://docs.google.com/document/d/1XDZNEwlIHfrr64SSTEekbumYR2Zd8TFCn-jGFt4Jv84/edit?usp=sharing">
+          <button className="nav-button highlited">Resume</button>
         </a>
       </div>
     </div>
